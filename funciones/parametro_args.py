@@ -17,7 +17,7 @@ print(suma(*numeros_lista)) #devuelve 15
 print("---------------------------------------------------")
 
 #ejemplo con mezcla de parametros normales y *args
-def mostrar_info(nombre, *args):#nombre es un parametro normal y args es un parametro variable
+def mostrar_info(nombre, *args):#nombre es un parametro normal y args es un parametro variable, *ARGS DEBE IR AL FINAL SIEMPRE
     print(f"Nombre: {nombre}")
     print("Otros argumentos:")
     for arg in args:
